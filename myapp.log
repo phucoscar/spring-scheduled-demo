@@ -1,0 +1,216 @@
+2023-08-07 14:44:31 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 14892 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 14:44:31 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 14:44:32 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 14:44:32 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 14:44:32 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'connectionFactory' defined in class path resource [com/aml/config/RabbitMQConfig1.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=rabbitMQConfig1; factoryMethodName=connectionFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/aml/config/RabbitMQConfig1.class]] for bean 'connectionFactory': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=rabbitMQConfig; factoryMethodName=connectionFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/aml/config/RabbitMQConfig.class]] bound.
+2023-08-07 14:44:32 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-07 14:44:32 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'connectionFactory', defined in class path resource [com/aml/config/RabbitMQConfig1.class], could not be registered. A bean with that name has already been defined in class path resource [com/aml/config/RabbitMQConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-08-07 14:45:05 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 11972 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 14:45:05 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 14:45:05 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 14:45:05 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 14:45:05 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'connectionFactory' defined in class path resource [com/aml/config/RabbitMQConfig1.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=rabbitMQConfig1; factoryMethodName=connectionFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/aml/config/RabbitMQConfig1.class]] for bean 'connectionFactory': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=rabbitMQConfig; factoryMethodName=connectionFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/aml/config/RabbitMQConfig.class]] bound.
+2023-08-07 14:45:05 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-08-07 14:45:05 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'connectionFactory', defined in class path resource [com/aml/config/RabbitMQConfig1.class], could not be registered. A bean with that name has already been defined in class path resource [com/aml/config/RabbitMQConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2023-08-07 14:45:53 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 11460 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 14:45:53 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 14:45:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 14:45:53 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 14:45:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-07 14:45:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2023-08-07 14:45:55 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-07 14:45:55 INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-07 14:45:55 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2023-08-07 14:45:55 INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-07 14:45:55 INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-08-07 14:45:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1406 ms
+2023-08-07 14:45:55 INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-07 14:45:55 INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-07 14:45:55 INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-07 14:45:55 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2023-08-07 14:45:56 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-07 14:45:56 INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-07 14:45:57 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-07 14:45:57 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 14:45:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 14:45:58 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-07 14:45:58 INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-07 14:45:58 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-07 14:45:58 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: localhost:5672
+2023-08-07 14:45:58 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: connectionFactory#75b14c19:0/SimpleConnection@c554be6 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64946]
+2023-08-07 14:45:58 INFO  o.s.a.r.c.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (schedule-queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-08-07 14:45:59 INFO  c.a.SpringScheduleDemoApplication - Started SpringScheduleDemoApplication in 5.787 seconds (JVM running for 7.307)
+2023-08-07 14:47:22 INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-07 14:47:22 INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-08-07 14:47:22 INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+2023-08-07 14:47:22 INFO  c.a.c.UserController - Start send message
+2023-08-07 14:47:22 INFO  c.a.c.UserController - Message sent at: 1691394442147
+2023-08-07 14:47:22 INFO  c.a.s.RabbitMQService - Hello world at: 1691394442130
+2023-08-07 14:55:43 INFO  c.a.c.UserController - Start send message
+2023-08-07 14:55:43 INFO  c.a.c.UserController - Message sent at: 1691394943895
+2023-08-07 14:55:43 INFO  c.a.s.RabbitMQService - Hello world at: 1691394943895
+2023-08-07 15:43:19 WARN  c.z.h.p.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m20s888ms391µs800ns).
+2023-08-07 16:30:27 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-08-07 16:30:28 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-08-07 16:30:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:30:28 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-07 16:30:28 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-07 16:30:36 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 2544 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 16:30:36 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 16:30:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 16:30:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 16:30:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-07 16:30:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2023-08-07 16:30:38 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-07 16:30:38 INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:30:38 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2023-08-07 16:30:38 INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-07 16:30:38 INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-08-07 16:30:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1720 ms
+2023-08-07 16:30:38 INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-07 16:30:38 INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-07 16:30:38 INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-07 16:30:39 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2023-08-07 16:30:40 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-07 16:30:40 INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-07 16:30:41 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-07 16:30:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:30:42 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 16:30:42 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-07 16:30:42 INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:30:42 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-07 16:30:42 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: localhost:5672
+2023-08-07 16:30:42 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: connectionFactory#2ef40120:0/SimpleConnection@18021367 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 61943]
+2023-08-07 16:30:42 INFO  o.s.a.r.c.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (schedule-queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-08-07 16:30:42 INFO  c.a.SpringScheduleDemoApplication - Started SpringScheduleDemoApplication in 6.626 seconds (JVM running for 8.404)
+2023-08-07 16:30:47 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 1
+2023-08-07 16:30:57 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 2
+2023-08-07 16:31:07 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 3
+2023-08-07 16:31:17 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 4
+2023-08-07 16:31:27 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 5
+2023-08-07 16:31:37 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 6
+2023-08-07 16:31:47 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 7
+2023-08-07 16:31:57 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 8
+2023-08-07 16:32:08 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 9
+2023-08-07 16:32:18 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 10
+2023-08-07 16:32:28 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 11
+2023-08-07 16:32:38 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 12
+2023-08-07 16:32:48 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 13
+2023-08-07 16:32:58 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 14
+2023-08-07 16:33:08 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 15
+2023-08-07 16:33:18 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 16
+2023-08-07 16:33:28 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 17
+2023-08-07 16:33:38 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 18
+2023-08-07 16:33:48 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 19
+2023-08-07 16:33:58 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 20
+2023-08-07 16:34:08 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 21
+2023-08-07 16:34:18 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 22
+2023-08-07 16:34:28 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 23
+2023-08-07 16:34:38 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 24
+2023-08-07 16:34:48 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 25
+2023-08-07 16:34:58 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 26
+2023-08-07 16:35:08 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 27
+2023-08-07 16:35:18 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 28
+2023-08-07 16:35:28 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 29
+2023-08-07 16:35:38 INFO  c.a.s.ScheduleService1 - Send message with fixedDelay: 30
+2023-08-07 16:35:43 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-08-07 16:35:44 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-08-07 16:35:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:35:44 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-07 16:35:44 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-07 16:40:02 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 1176 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 16:40:02 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 16:40:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 16:40:02 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 16:40:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-07 16:40:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2023-08-07 16:40:04 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-07 16:40:04 INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:40:04 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2023-08-07 16:40:04 INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-07 16:40:04 INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-08-07 16:40:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1334 ms
+2023-08-07 16:40:04 INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-07 16:40:04 INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-07 16:40:04 INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-07 16:40:04 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2023-08-07 16:40:05 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-07 16:40:05 INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-07 16:40:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-07 16:40:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:40:07 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 16:40:07 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-07 16:40:07 INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:40:07 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-07 16:40:07 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: localhost:5672
+2023-08-07 16:40:07 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: connectionFactory#20866556:0/SimpleConnection@244e64fa [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62135]
+2023-08-07 16:40:07 INFO  o.s.a.r.c.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (schedule-queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-08-07 16:40:07 INFO  c.a.SpringScheduleDemoApplication - Started SpringScheduleDemoApplication in 5.116 seconds (JVM running for 6.567)
+2023-08-07 16:40:27 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-08-07 16:40:28 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-08-07 16:40:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:40:29 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-07 16:40:29 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-08-07 16:41:35 INFO  c.a.SpringScheduleDemoApplication - Starting SpringScheduleDemoApplication using Java 1.8.0_281 on KimPhuc-2504 with PID 11940 (E:\spring-schedule-demo\target\classes started by Phuc in E:\spring-schedule-demo)
+2023-08-07 16:41:35 INFO  c.a.SpringScheduleDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-08-07 16:41:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-07 16:41:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-07 16:41:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-07 16:41:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2023-08-07 16:41:36 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-08-07 16:41:36 INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:41:36 INFO  o.a.c.c.StandardService - Starting service [Tomcat]
+2023-08-07 16:41:36 INFO  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-07 16:41:36 INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-08-07 16:41:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2023-08-07 16:41:36 INFO  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-07 16:41:36 INFO  o.h.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-07 16:41:36 INFO  o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-07 16:41:36 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2023-08-07 16:41:37 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2023-08-07 16:41:37 INFO  o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-08-07 16:41:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-07 16:41:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:41:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-07 16:41:39 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-08-07 16:41:39 INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-07 16:41:39 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-07 16:41:39 INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: localhost:5672
+2023-08-07 16:41:39 INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: connectionFactory#5cbc48bb:0/SimpleConnection@65db61e8 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62187]
+2023-08-07 16:41:39 INFO  o.s.a.r.c.RabbitAdmin - Auto-declaring a non-durable, auto-delete, or exclusive Queue (schedule-queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2023-08-07 16:41:39 INFO  c.a.SpringScheduleDemoApplication - Started SpringScheduleDemoApplication in 4.977 seconds (JVM running for 6.419)
+2023-08-07 16:46:14 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+2023-08-07 16:46:14 INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2023-08-07 16:46:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-07 16:46:14 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-08-07 16:46:14 INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
