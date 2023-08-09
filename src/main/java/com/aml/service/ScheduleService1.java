@@ -28,9 +28,10 @@ public class ScheduleService1 {
 //        System.out.println("hello " + count++);
 //    }
 
-    @Scheduled(cron = "0 17 10 * * *") // send mail vào 10:17:00 am mỗi ngày
+    @Scheduled(cron = "0 0/1 * * * *") // send mail vào 10:17:00 am mỗi ngày
     public void send2() {
-        System.out.println("Send mail at: " + LocalDateTime.now());
-        mailSenderService.sendMail("phucvk.b19cn506@stu.ptit.edu.vn", "Chào bạn nha");
+        System.out.println("hello guy at: " + LocalDateTime.now());
+//        System.out.println("Send mail at: " + LocalDateTime.now());
+//        mailSenderService.sendMail("phucvk.b19cn506@stu.ptit.edu.vn", "Chào bạn nha");
     }
 }
